@@ -37,11 +37,13 @@
       </section>
 
       <!-- content -->
-      <section class="content bg-white w-full rounded-3xl m-5 ml-0">
+      <section
+        class="content text-[#273240] md:flex bg-white w-full m-5 ml-0 rounded-3xl"
+      >
         <!-- main content -->
         <section>
-          <div class="main-content mx-24 mt-14">
-            <div class="flex justify-between">
+          <div class="main-content mx-4 lg:mx-8 xl:mx-24 mt-14">
+            <div class="lg:flex justify-between">
               <div>
                 <h1 class="text-4xl font-semibold">Expenses</h1>
                 <p class="text-base text-secondary mt-2.5">
@@ -49,7 +51,7 @@
                 </p>
               </div>
               <div>
-                <div class="user-stack">
+                <div class="user-stack mt-4 lg:mt-0">
                   <img src="./assets/user-1.svg" alt="user" />
                   <img src="./assets/user-2.svg" alt="user" />
                   <img src="./assets/user-3.svg" alt="user" />
@@ -154,8 +156,103 @@
         </section>
 
         <!-- right content -->
-        <section>
-          <!-- <h1 class="text-4xl">Right content</h1> -->
+        <section class="flex-grow bg-[#F9FAFC] px-3 xl:px-0">
+          <div class="right-content mx-auto">
+            <h3 class="avenir-regular text-xl mt-16 mb-8">
+              Where your money go?
+            </h3>
+
+            <!-- stats -->
+            <div class="space-y-[30px]">
+              <!-- stat -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-sm font-medium">Food and Drinks</span>
+                  <span class="text-sm">872.400</span>
+                </div>
+                <div class="relative bg-[#ECEFF5] rounded h-[5px]">
+                  <div
+                    class="absolute top-0 bg-[#31BA96] rounded h-[5px]"
+                    style="width: 30%"
+                  ></div>
+                </div>
+              </div>
+              <!-- stat -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-sm font-medium">Shopping</span>
+                  <span class="text-sm">1378.200</span>
+                </div>
+                <div class="relative bg-[#ECEFF5] rounded h-[5px]">
+                  <div
+                    class="absolute top-0 bg-[#31BA96] rounded h-[5px]"
+                    style="width: 45%"
+                  ></div>
+                </div>
+              </div>
+              <!-- stat -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-sm font-medium">Housing</span>
+                  <span class="text-sm">928.500</span>
+                </div>
+                <div class="relative bg-[#ECEFF5] rounded h-[4px]">
+                  <div
+                    class="absolute top-0 bg-[#31BA96] rounded h-[4px]"
+                    style="width: 38%"
+                  ></div>
+                </div>
+              </div>
+              <!-- stat -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-sm font-medium">Transportation</span>
+                  <span class="text-sm">420.700</span>
+                </div>
+                <div class="relative bg-[#ECEFF5] rounded h-[5px]">
+                  <div
+                    class="absolute top-0 bg-[#31BA96] rounded h-[5px]"
+                    style="width: 25%"
+                  ></div>
+                </div>
+              </div>
+              <!-- stat -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-sm font-medium">Vehicle</span>
+                  <span class="text-sm">520.000</span>
+                </div>
+                <div class="relative bg-[#ECEFF5] rounded h-[5px]">
+                  <div
+                    class="absolute top-0 bg-[#31BA96] rounded h-[5px]"
+                    style="width: 30%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- box tips -->
+            <div class="rounded-xl bg-[#EDF0F6] w-[250px] mt-24 p-6">
+              <div class="flex justify-between -mt-14">
+                <img src="./assets/box.svg" alt="box" class="-mb-4" />
+                <img src="./assets/tree.svg" alt="tree" />
+              </div>
+              <div>
+                <h6 class="text-base font-semibold mt-5 mb-1">
+                  Save more money
+                </h6>
+                <p class="text-xs text-secondary tracking-wide">
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim.
+                </p>
+                <button
+                  class="text-white font-semibold uppercase tracking-widest rounded-lg bg-[#101010] w-[200px] h-[45px] mt-5 mb-4"
+                >
+                  View Tips
+                </button>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
     </main>

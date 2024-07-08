@@ -1,9 +1,9 @@
 .content {
   max-width: 1040px;
+  overflow: hidden;
 }
 .main-content {
   max-width: 510px;
-  /* border: 1px solid black; */
 }
 .list {
   max-width: 500px;
@@ -24,4 +24,8 @@
 .user-stack img:nth-child(3) {
   position: relative;
   z-index: 1;
+}
+.right-content {
+  max-width: 250px;
+  /* border: 1px solid black; */
 }
