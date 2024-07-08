@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body class="mx-auto">
+    <main class="flex rounded-xl">
+      <!-- sidebar -->
+      <section class="sidebar">
+        <div class="sidebar-content mt-16 mx-auto">
+          <div><img src="./assets/Profile.svg" alt="profile" /></div>
+          <h3 class="text-white text-3xl">Samantha</h3>
+          <p class="text-secondary">samantha@email.com</p>
+          <div>
+            <ul
+              class="dashboard-navbar text-secondary font-semibold text-2xl space-y-8 mt-28"
+            >
+              <li>Dashboard</li>
+              <li class="text-white">Expenses</li>
+              <li>Wallets</li>
+              <li>Summary</li>
+              <li>Accounts</li>
+              <li>Settings</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- content -->
+      <section class="content bg-white w-full rounded m-5 ml-0">
+        <h1 class="text-4xl">Expenses</h1>
+      </section>
+    </main>
+  </body>
+</html>

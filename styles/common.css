@@ -1,0 +1,9 @@
+body {
+  max-width: 1420px;
+}
+main {
+  background-color: #101010;
+}
+.text-secondary {
+  color: #878787;
+}

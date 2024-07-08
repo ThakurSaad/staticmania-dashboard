@@ -1,0 +1,11 @@
+.sidebar {
+  width: 360px;
+}
+.sidebar-content {
+  width: 200px;
+}
+.dashboard-navbar li:hover {
+  color: white;
+  animation-duration: 0.1s;
+  cursor: pointer;
+}
