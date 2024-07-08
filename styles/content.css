@@ -1,3 +1,27 @@
 .content {
   max-width: 1040px;
 }
+.main-content {
+  max-width: 510px;
+  /* border: 1px solid black; */
+}
+.list {
+  max-width: 500px;
+}
+.user-stack {
+  display: flex;
+}
+.user-stack img:nth-child(1) {
+  position: relative;
+  z-index: 3;
+  margin-right: -9px;
+}
+.user-stack img:nth-child(2) {
+  position: relative;
+  z-index: 2;
+  margin-right: -9px;
+}
+.user-stack img:nth-child(3) {
+  position: relative;
+  z-index: 1;
+}

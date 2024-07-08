@@ -1,8 +1,21 @@
+@font-face {
+  font-family: "avenir-regular";
+  src: url("../fonts/AvenirNextLTPro-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   max-width: 1420px;
+  font-family: "Poppins", sans-serif;
 }
 main {
   background-color: #101010;
+}
+
+.avenir-regular {
+  font-family: "avenir-regular";
+  font-weight: 600;
 }
 .text-secondary {
   color: #878787;

@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body class="mx-auto">
-    <main class="flex rounded-xl">
+    <main class="flex rounded-3xl">
       <!-- sidebar -->
       <section class="sidebar">
         <div class="sidebar-content mt-16 mx-auto">
-          <div><img src="./assets/Profile.svg" alt="profile" /></div>
-          <h3 class="text-white text-3xl">Samantha</h3>
+          <div class="relative">
+            <img src="./assets/Profile.svg" alt="profile" />
+            <span
+              class="absolute -top-[17px] left-[55px] text-white text-sm text-center bg-[#DC3434] rounded-full pt-1 w-[30px] h-[30px]"
+              >4</span
+            >
+          </div>
+          <h3 class="text-white font-semibold text-3xl mt-5">Samantha</h3>
           <p class="text-secondary">samantha@email.com</p>
           <div>
             <ul
@@ -31,8 +37,126 @@
       </section>
 
       <!-- content -->
-      <section class="content bg-white w-full rounded m-5 ml-0">
-        <h1 class="text-4xl">Expenses</h1>
+      <section class="content bg-white w-full rounded-3xl m-5 ml-0">
+        <!-- main content -->
+        <section>
+          <div class="main-content mx-24 mt-14">
+            <div class="flex justify-between">
+              <div>
+                <h1 class="text-4xl font-semibold">Expenses</h1>
+                <p class="text-base text-secondary mt-2.5">
+                  01 - 25 March, 2020
+                </p>
+              </div>
+              <div>
+                <div class="user-stack">
+                  <img src="./assets/user-1.svg" alt="user" />
+                  <img src="./assets/user-2.svg" alt="user" />
+                  <img src="./assets/user-3.svg" alt="user" />
+                  <img class="ml-2" src="./assets/plus.svg" alt="plus" />
+                </div>
+              </div>
+            </div>
+            <div class="mt-11">
+              <img src="./assets/Stats.svg" alt="stats" />
+            </div>
+
+            <!-- day -->
+            <div class="mt-12">
+              <div class="flex w-full justify-between align-items-center">
+                <h3 class="avenir-regular relative">Today</h3>
+                <img src="./assets/dot.svg" alt="dot" />
+              </div>
+
+              <hr class="border-b opacity-50 mt-2 mb-0.5" />
+
+              <!-- list -->
+              <div class="list flex mx-auto my-6">
+                <img src="./assets/cart.svg" alt="cart" />
+                <div class="flex w-full justify-between ml-4">
+                  <div>
+                    <h6 class="text-base font-medium">Grocery</h6>
+                    <p class="text-sm text-secondary tracking-wide opacity-90">
+                      5:12 pm&nbsp; • &nbsp;Belanja di pasar
+                    </p>
+                  </div>
+                  <p class="text-base font-semibold mt-1">-326.800</p>
+                </div>
+              </div>
+
+              <!-- list -->
+              <div class="list flex mx-auto my-6">
+                <img src="./assets/train.svg" alt="train" />
+                <div class="flex w-full justify-between ml-4">
+                  <div>
+                    <h6 class="text-base font-medium">Transportation</h6>
+                    <p class="text-sm text-secondary tracking-wide opacity-90">
+                      5:12 pm&nbsp; • &nbsp;Naik bus umum
+                    </p>
+                  </div>
+                  <p class="text-base font-semibold mt-1">-15.000</p>
+                </div>
+              </div>
+
+              <!-- list -->
+              <div class="list flex mx-auto my-6">
+                <img src="./assets/home.svg" alt="home" />
+                <div class="flex w-full justify-between ml-4">
+                  <div>
+                    <h6 class="text-base font-medium">Housing</h6>
+                    <p class="text-sm text-secondary tracking-wide opacity-90">
+                      5:12 pm&nbsp; • &nbsp;Bayar Listrik
+                    </p>
+                  </div>
+                  <p class="text-base font-semibold mt-1">-185.750</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- day -->
+            <div class="mt-[60px]">
+              <div class="flex w-full justify-between align-items-center">
+                <h3 class="avenir-regular relative">Monday, 23 March 2020</h3>
+                <img src="./assets/dot.svg" alt="dot" />
+              </div>
+
+              <hr class="border-b opacity-50 mt-2 mb-0.5" />
+
+              <!-- list -->
+              <div class="list flex mx-auto my-6">
+                <img src="./assets/hat.svg" alt="hat" />
+                <div class="flex w-full justify-between ml-4">
+                  <div>
+                    <h6 class="text-base font-medium">Food and Drink</h6>
+                    <p class="text-sm text-secondary tracking-wide opacity-90">
+                      5:12 pm&nbsp; • &nbsp;Makan Steak
+                    </p>
+                  </div>
+                  <p class="text-base font-semibold mt-1">-156.000</p>
+                </div>
+              </div>
+
+              <!-- list -->
+              <div class="list flex mx-auto my-6">
+                <img src="./assets/play.svg" alt="play" />
+                <div class="flex w-full justify-between ml-4">
+                  <div>
+                    <h6 class="text-base font-medium">Entertainment</h6>
+                    <p class="text-sm text-secondary tracking-wide opacity-90">
+                      5:12 pm&nbsp; • &nbsp;Nonstop Bioskop
+                    </p>
+                  </div>
+                  <p class="text-base font-semibold mt-1">-35.200</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- right content -->
+        <section>
+          <!-- <h1 class="text-4xl">Right content</h1> -->
+        </section>
       </section>
     </main>
   </body>
